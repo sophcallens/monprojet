@@ -9,7 +9,7 @@ données a disposition : résultats élection présidentielle 2022 par départem
 
 3- nombre d'inscrit par département 
 
-4- 10 départements les plus supportrices de chacun des candidats (par pourcentage dans le département) 
+4- 10 départements qui supportent le plus de chacun des candidats (par pourcentage dans le département) 
 
 5- pourcentage de vote par condidat par RÉGION 
 
