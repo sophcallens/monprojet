@@ -23,6 +23,6 @@ données a disposition : résultats élection présidentielle 2022 par départem
 
 10- Demander les resultats pour un candidat
 
-11- pourcentage de chaque candidat pour département
+11- pourcentage de chaque candidat par département
 
-11 - candidat gagnant pour chaque département
+12 - candidat gagnant pour chaque département
