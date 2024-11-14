@@ -19,6 +19,10 @@ données a disposition : résultats élection présidentielle 2022 par départem
 
 8- carte du poucentage d'abstentioniste par département 
 
-9- calcul du nb d'inscrit total
+9- nombre total d'inscrits
 
-10- Demander les resultats pour un candidat 
+10- Demander les resultats pour un candidat
+
+11- pourcentage de chaque candidat par département
+
+12 - candidat gagnant pour chaque département
