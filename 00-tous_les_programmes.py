@@ -58,9 +58,10 @@ def f5(df) :
 def f6(df) :    
     df2 = f12(df)
     
-    departements = departements.merge(df2, left_on='nom', right_index=True, how='left')
-    
-    departements.plot(column='candidat', legend=True, edgecolor='black', cmap='tab20')
+    departements = gpd.read_file('departements-version-simplifiee.geojson')
+    df3 = departements.merge(df2, left_on='nom', right_index=True, how='left')
+
+    df3.plot(column='candidat', legend=True, edgecolor='black', cmap='tab20')
     plt.title('Candidat préféré par département')
     plt.axis('off')
     plt.show()
@@ -112,3 +113,4 @@ def f12(df) :
 
 df = pd.read_excel("resultats-par-niveau-cirlg-t1-france-entiere.xlsx")
 
+f6(df)
