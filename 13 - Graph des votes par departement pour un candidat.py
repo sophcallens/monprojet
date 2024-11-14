@@ -11,9 +11,9 @@ y=df[nom].tolist()
 
 # Tracer le graphique
 plt.plot(x, y, marker='o', linestyle='-')  
-plt.xlabel("Axe X") 
-plt.ylabel("Axe Y")  
-plt.title("Graphique de Y en fonction de X") 
+plt.xlabel("vote") 
+plt.ylabel("departement")  
+plt.title("Répartition par Départemennt pour", nom ) 
 plt.grid(True) 
 plt.show()  
 
