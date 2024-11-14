@@ -19,4 +19,5 @@ df2=pd.DataFrame()
 for column in df1.columns:
     if column not in {'Inscrits', 'Votants', 'Exprimés'}:
         df2[column] = ((df1[column] / df1['Inscrits']) * 100).round(2)
-df2
+
+print(df2)
